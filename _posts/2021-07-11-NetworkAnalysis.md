@@ -388,7 +388,8 @@ connected with other symptoms in the network shown below.
 qgraph(isingSym$weiadj, layout = 'spring')
 ```
 
-![](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![Figure1](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-10-1.png)
+<br>
 Although we need to be cautious interpreting results with warnings,
 warnings do not directly sentence your model to death. There are a few
 further directions you can take after a thorough inspection of the
@@ -415,7 +416,7 @@ singSym_AlcTob =
 ```
 
 ![Figure2](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-11-1.png)
-
+<br>
 The last example is focused on a high-risk population who reported more
 than seven stressors in the past year. You can see that the prevalence
 rates of drug use symptoms are higher in this subgroup. As a result, we
@@ -449,6 +450,7 @@ singSym =
 ```
 
 ![Figure3](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-12-1.png)
+<br>
 Note that although I kept using the term partial correlations, in the
 Ising model, the exact meaning of the edge weights are *log odds* (as in
 logistic regression). However, let’s think of it as a type of partial
