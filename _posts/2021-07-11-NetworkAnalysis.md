@@ -415,7 +415,7 @@ singSym_AlcTob =
          ) 
 ```
 
-![Figure2](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-11-1.png)
+![Fig4](/images/NetworkAnalysis/Fig4.png)
 <br>
 The last example is focused on a high-risk population who reported more
 than seven stressors in the past year. You can see that the prevalence
@@ -449,7 +449,7 @@ singSym =
          ) 
 ```
 
-![Figure3](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-12-1.png)
+![Fig5](/images/NetworkAnalysis/Fig5.png)
 <br>
 Note that although I kept using the term partial correlations, in the
 Ising model, the exact meaning of the edge weights are *log odds* (as in
