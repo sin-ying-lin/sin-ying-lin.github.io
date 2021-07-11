@@ -4,26 +4,22 @@ title: About
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+Hi, my name is Elaina. I am a researcher in clinical psychology.
+I study quantitative nosology of mental disorders, risk factors identification, and treatment course prediction.
+You can find my publications under my legal name: [Sin-Ying Lin](https://orcid.org/0000-0001-9862-7669)
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+Yes, I provide therapy (under supervision).
+No, Freud is not my friend, although I have read his entire book colelction in high school.
+It has been almost a century since his debut. Things have changed a lot.
 
-## Features
+Yes, I use R and Python.
+No, I am not familiar with Excel and SPSS.
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+Yes, I know stats.
+No, I don't do qualitative research.
 
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+Yes, I apply machine learning.
+No, it is not just cross validation.
+
+Yes, HPC is often required in my research.
+No, I don't hire people to do analysis for me. I am the data scientist. 🐱‍💻
