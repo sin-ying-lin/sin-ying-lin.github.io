@@ -126,16 +126,12 @@ any analysis.
 ``` r
 #Inspect missing data
 require(finalfit)
-```
 
-    ## Loading required package: finalfit
-
-``` r
 df %>% 
   missing_plot()
 ```
 
-![](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-2-1.png)
+![Figure1](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-2-1.png)
 You can see that the data is not missing at random (which is often \[if
 not always\] the case in reality). There are reasons why A2 (withdraw
 symptom) had more missing values, and when one person skipped a
@@ -155,16 +151,7 @@ a symptom network.
 
 ``` r
 require(qgraph)
-```
 
-    ## Loading required package: qgraph
-
-    ## Registered S3 methods overwritten by 'huge':
-    ##   method    from   
-    ##   plot.sim  BDgraph
-    ##   print.sim BDgraph
-
-``` r
 qgraphSym = qgraph(cor(df_lwd[, c(2:30)]), #correlation matrix of symptoms
        layout = 'spring') #Spring layout gives a force embedded layout where the distance between nodes are driven by the strength of relationships. You can use other layouts such as circle or groups.
 ```
@@ -211,22 +198,7 @@ Let’s compute the average shortest length among the three clusters.
 
 ``` r
 require(dplyr) #Load dplyr for dat manipulation
-```
 
-    ## Loading required package: dplyr
-
-    ## 
-    ## Attaching package: 'dplyr'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
-
-``` r
 #Select subsets of the shortest path length matrix and compute the average shortest length between clusters
 alcDrugDistance = 
   mean(cenPath_qgraphSym[grep('A_', colnames(cenPath_qgraphSym)), #All rows with row names containing A_ (alcohol use symptoms)
@@ -302,11 +274,7 @@ model selection.
 ``` r
 #Estimate a partial correlation network using the Ising model with l1-regularization and EBIC model selection
 require(IsingFit)
-```
 
-    ## Loading required package: IsingFit
-
-``` r
 isingSym = 
   IsingFit(df_lwd[c(1:5000), #Use the first 5000 individuals for demonstration purpose
                   c(2:30)], #Select only symptom variables, 
