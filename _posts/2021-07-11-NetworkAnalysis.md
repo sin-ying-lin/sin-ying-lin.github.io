@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Network Analysis: What, Why, When, and How?
-categories: [Network Analysis]
+title: "Network Analysis: What, Why, When, and How?"
+categories: 
 excerpt: Network analysis has been widely used in multidisciplinary data science. Learn how to apply it on empirical data! 
 ---
 
