@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: On Being Human--Data Science in Healthcare`
+name: On Being Human--Data Science in Healthcare
 
 # Name of the author
 author: Elaina Lin
@@ -51,7 +51,7 @@ enforce_ssl: http://sin-ying-lin.github.io
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/sin-ying-lin.github.io"
+baseurl: "http://sin-ying-lin.github.io"
 
 #
 # !! You don't need to change any of the configuration flags below !!
