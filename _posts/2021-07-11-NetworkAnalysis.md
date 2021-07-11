@@ -156,7 +156,7 @@ qgraphSym = qgraph(cor(df_lwd[, c(2:30)]), #correlation matrix of symptoms
        layout = 'spring') #Spring layout gives a force embedded layout where the distance between nodes are driven by the strength of relationships. You can use other layouts such as circle or groups.
 ```
 
-![](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-10-1.png)
 We call this a *correlation network* because the edges represent the
 correlations among symptoms. Thicker edges indicate stronger
 associations. You can see that, naturally, alcohol, tobacco, and drug
@@ -414,7 +414,7 @@ singSym_AlcTob =
          ) 
 ```
 
-![](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-11-1.png)
+![Figure2](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-11-1.png)
 
 The last example is focused on a high-risk population who reported more
 than seven stressors in the past year. You can see that the prevalence
@@ -448,7 +448,7 @@ singSym =
          ) 
 ```
 
-![](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-12-1.png)
+![Figure3](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-12-1.png)
 Note that although I kept using the term partial correlations, in the
 Ising model, the exact meaning of the edge weights are *log odds* (as in
 logistic regression). However, let’s think of it as a type of partial
