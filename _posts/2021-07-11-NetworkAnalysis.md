@@ -156,7 +156,7 @@ qgraphSym = qgraph(cor(df_lwd[, c(2:30)]), #correlation matrix of symptoms
        layout = 'spring') #Spring layout gives a force embedded layout where the distance between nodes are driven by the strength of relationships. You can use other layouts such as circle or groups.
 ```
 
-![](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![Fig2](/images/NetworkAnalysis/Fig2.png)
 We call this a *correlation network* because the edges represent the
 correlations among symptoms. Thicker edges indicate stronger
 associations. You can see that, naturally, alcohol, tobacco, and drug
@@ -388,7 +388,7 @@ connected with other symptoms in the network shown below.
 qgraph(isingSym$weiadj, layout = 'spring')
 ```
 
-![Figure1](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![Fig3](/images/NetworkAnalysis/Fig3.png)
 <br>
 Although we need to be cautious interpreting results with warnings,
 warnings do not directly sentence your model to death. There are a few
