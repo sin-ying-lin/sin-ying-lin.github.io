@@ -146,7 +146,7 @@ missing values, but we will just use listwise deletion today.
 #Listwise deletion
 df_lwd = na.omit(df) #I prefer saving it as a distinct dataframe instead of rewriting the original one.
 ```
-Ps. All codes and results are horizontally scrollable. 
+PS All codes and results are horizontally scrollable. 
 
 Okay! Let’s finally do some network analysis. The most commonly used
 package for network visualization in R is `qgraph`, which is a wrapper
