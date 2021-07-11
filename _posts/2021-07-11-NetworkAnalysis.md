@@ -112,7 +112,7 @@ str(df)
 
 According to the `str()` function (similar to the `dataframe.info()`
 function in Python), we know that the current data consists of 34,653
-individuals with 31 variables, namely individual ID, alcohol
+individuals with 31 variables, namely the IDs, alcohol
 abuse/dependence symptoms, tobacco abuse symptoms, drug abuse/dependence
 symptoms, and the number of stressors in the past year.
 
@@ -142,7 +142,7 @@ missing values, but we will just use listwise deletion today.
 #Listwise deletion
 df_lwd = na.omit(df) #I prefer saving it as a distinct dataframe instead of rewriting the original one.
 ```
-PS All codes and results are horizontally scrollable. 
+PS All blocks of code and results are horizontally scrollable. 
 
 Okay! Let’s finally do some network analysis. The most commonly used
 package for network visualization in R is `qgraph`, which is a wrapper
