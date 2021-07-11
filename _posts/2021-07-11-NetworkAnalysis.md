@@ -131,7 +131,7 @@ df %>%
   missing_plot()
 ```
 
-![Figure1](NetworkAnalysis_files/figure-markdown_github/unnamed-chunk-2-1.png)
+![Fig1](/images/NetworkAnalysis/Fig1.png)
 You can see that the data is not missing at random (which is often \[if
 not always\] the case in reality). There are reasons why A2 (withdraw
 symptom) had more missing values, and when one person skipped a
