@@ -495,7 +495,7 @@ moderating effect in network analysis. I will also explain why I choose
 R over Python for network analysis in the next article. See you next
 time. Have fun with your data. 🐱‍💻
 
-Elaina Lin <br>
+Sin-Ying Lin <br>
 07/10/2021 <br>
 Data can be retrieved from my github:
 <a href="https://github.com/sin-ying-lin/blog_materials.git" class="uri">https://github.com/sin-ying-lin/blog_materials.git</a>
