@@ -3,6 +3,7 @@ layout: post
 title: "Dealing with Missing Data: Multiple Imputation"
 categories: MissingData
 excerpt: Sick of deleting all rows with missing data? Learn how to deal with missing data with multiple imputation! 
+---
 
 Call Packages
 -------------
