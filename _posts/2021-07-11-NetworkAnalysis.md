@@ -154,7 +154,7 @@ require(qgraph)
 
 qgraphSym = qgraph(cor(df_lwd[, c(2:30)]), #correlation matrix of symptoms
        layout = 'spring') #Spring layout gives a force embedded layout where the distance between nodes are driven by the strength of relationships. You can use other layouts such as circle or groups.
-```
+```ss
 
 ![Fig2](/images/NetworkAnalysis/Fig2.png)
 We call this a *correlation network* because the edges represent the

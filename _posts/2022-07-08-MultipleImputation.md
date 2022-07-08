@@ -546,7 +546,7 @@ df %>%
   missing_plot()
 ```
 
-![Fig1](/images/MultipleImputation/Fig1.png)
+![Fig1](/images/MultipleImputation/fig1.png)
 
 ### Missing pattern by variable
 
@@ -557,7 +557,7 @@ df %>%
   missing_pattern(dependent, explanatory)
 ```
 
-![Fig2](/images/MultipleImputation/Fig2.png)
+![Fig2](/images/MultipleImputation/fig2.png)
 
     ##      gender age hispanic edu liveAlone race dep    
     ## 1652      1   1        1   1         1    1   1   0
@@ -646,7 +646,7 @@ df %>%
 
     ## Warning: Removed 26 rows containing non-finite values (stat_boxplot).
 
-![Fig3](/images/MultipleImputation/Fig3.png)
+![Fig3](/images/MultipleImputation/fig3.png)
 
 ### Quantify the missing patterns of dependent variable based on explanatory variables
 
