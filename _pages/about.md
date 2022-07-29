@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 My name is Sin-Ying. I also go by Alina. I respond to both. <br>
-I am a <u>researcher</u>, a <u>data scientist</u>, and also a <u>therapist</u> in mental/behavioral health. <br> 
+I am a <i>researcher</i>, a <i>data scientist</i>, and also a <i>therapist</i> in mental/behavioral health. <br> 
 <br>
 I firmly believe that one day we will achieve data-informed, evidence-based, personalized clinical practice. We will be paying the values of healthcare services we receive, not paying for the time we waste. <br>
 
@@ -21,6 +21,6 @@ On top of all the fancy techniques, my true love is <b>data visualization</b>. <
 Visualization not only helps you deliver a story but also helps you understand your data. <br>
 <br>
 Although research data is usually shinier and cleaner, I enjoy the process of digging out gems from messy, naturalistic, longitudinal clinical data. <br>
-I love talking to people from different disciplines so long as we all want a more reliable and transparent healthcare system. <br>
+I love talking to people from different disciplines so long as we all want a more reliable and transparent healthcare system, or we are all nerdy method lover. <br>
 <br>
 
