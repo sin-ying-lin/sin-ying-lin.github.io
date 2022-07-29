@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 My name is Sin-Ying. I also go by Alina. I respond to both. <br>
-I am a researcher, a data scientist, and also a therapist in mental/behavioral health. <br> 
+I am a <b>researcher</b>, a data scientist, and also a therapist in mental/behavioral health. <br> 
 <br>
 I firmly believe that one day we will achieve data-informed, evidence-based, personalized clinical practice. We will be paying the values of healthcare services we receive, not paying for the time we waste. <br>
 
