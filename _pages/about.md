@@ -21,6 +21,6 @@ On top of all the fancy techniques, my true love is <b>data visualization</b>, w
 <br>
 Although research data is usually shinier and cleaner, I enjoy the process of digging out gems from messy, naturalistic, longitudinal clinical data. <br>
  <br>
-I love talking to people from different disciplines so long as we all want a more reliable and transparent healthcare system, or we are all just nerdy method lovers. <br>
+I love talking to people from different disciplines so long as we all want a more reliable and transparent healthcare system (or we are all nerdy method lovers). <br>
 <br>
 
