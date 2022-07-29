@@ -15,7 +15,7 @@ I integrate a variety of quantitative methods to approach answers to complex cli
 "Never let a method constrains your imagination" is my motto.<br>
 <br>
 I am familiar with common statistical methods (e.g., <b>t-test, ANOVA, chi-square, regression</b>) as well as advanced modeling (e.g., <b>multivariate modeling, multilevel modeling, agent-based modeling</b>). <br>
-I also published papers in top journals applying novel methods such as <b>network analysis</b> and <b>machine learning</b> to obtain actionable insights from large-scale clinical data (https://scholar.google.com.tw/citations?user=EMc3V7MAAAAJ&hl=en&oi=ao).<br>
+I also published [papers](https://scholar.google.com.tw/citations?user=EMc3V7MAAAAJ&hl=en&oi=ao) in top journals applying novel methods such as <b>network analysis</b> and <b>machine learning</b> to obtain actionable insights from large-scale clinical data.<br>
 On top of all the fancy techniques, my true love is <b>data visualization</b>, which not only helps you deliver a story but also helps you understand your data. <br>
 <br>
 I enjoy the process of digging out gems from messy, naturalistic, longitudinal clinical data. <br>
