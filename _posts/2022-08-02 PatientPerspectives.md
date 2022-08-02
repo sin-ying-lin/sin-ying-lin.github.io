@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding Patient Perspectives"
 categories: Visualization, Correlation
-excerpt: Heavily influenced by a medical model, we tend to conceptulize patient improvements as symptom reduction. The less symptoms a person has, the happier they should be. However, there are certainly many different aspects to patient perceived satisfaction and improvements. Use simple data analytic techniques to decompose patient perspectives. 
+excerpt: Heavily influenced by the medical model, we tend to conceptulize patient improvements as symptom reduction. The less symptoms a person has, the happier they should be. However, there are certainly many different aspects to patient perceived satisfaction and improvements. Use simple data analytic techniques to decompose patient perspectives. 
 ---
 
 ## Which Types of Treatment Outcomes Contributes to Patient Perceived Overall Satisfaction and Improvement in Psychiatry
