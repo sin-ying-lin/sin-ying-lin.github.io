@@ -2,20 +2,20 @@
 layout: post
 title: "Understanding Patient Perspectives"
 categories: Visualization, Correlation
-excerpt: Heavily influenced by the medical model, we tend to conceptulize patient improvements as symptom reduction. The less symptoms a person has, the happier they should be. However, there are certainly many different aspects to patient perceived satisfaction and improvements. Use simple data analytic techniques to decompose patient perspectives. 
+excerpt: Heavily influenced by the medical model, we tend to conceptulize patient improvement as symptom reduction. The less symptoms a person has, the happier they should be. However, there are certainly many different aspects to patient perceived satisfaction and improvement. Let's use simple data analytic techniques to decompose patient perspectives. 
 ---
 
 ## Which Types of Treatment Outcomes Contributes to Patient Perceived Overall Satisfaction and Improvement in Psychiatry
 
 
-Heavily influenced by a medical model, we tend to conceptulize patient improvements as <i> symptom reduction </i>. 
+Heavily influenced by the medical model, we tend to conceptulize patient improvement as <i> symptom reduction </i>. 
 
 The less symptoms a person has, the happier they should be. 
 
 However, there are certainly many different aspects to patient perceived satisfaction and improvements. 
 
 For some patients, although they still experience some psychiatric symptoms after treratment, say depressive mood, they are able to cope with it and pursue a life worth living. 
-For some patients, even when they do not experience clinical level psychiatric symptoms, they may not be able to bring their functioning back to where they hope it to be. 
+For some other patients, even when they do not experience clinical level psychiatric symptoms, they may not be able to bring their functioning back to where they hope it to be. 
 
 Thus, we tried to understand which types of treatment outcomes (i.e., symptom reduction, coping abilities, positive mental health, functioning, and well-being) are more critical for patient perceved overall satisfaction and improvement after completing a partial hospital program.  
 
