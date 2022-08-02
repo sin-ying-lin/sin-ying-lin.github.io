@@ -238,8 +238,6 @@ df[['overall1', 'imprv1', 'pre_sym', 'pre_cope', 'pre_pmh', 'pre_fun', 'pre_well
 ```
 
 
-
-
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -634,7 +632,7 @@ ggplot(df_long0, aes(x='satvalue', y='rdqvalue')) + \
 
 
     
-![png](Satisfaction_RDQ_files/Satisfaction_RDQ_28_0.png)
+![png](../images/PatientPerspectives/Fig1.png)
     
 
 
@@ -665,7 +663,7 @@ ggplot(df_long, aes(x='satvalue', y='rdqvalue')) + \
 
 
     
-![png](Satisfaction_RDQ_files/Satisfaction_RDQ_30_0.png)
+![png](../images/PatientPerspectives/Fig2.pngg)
     
 
 
@@ -699,7 +697,7 @@ ggplot(df_long2, aes(x='satvalue', y='rdqvalue')) + \
 
 
     
-![png](Satisfaction_RDQ_files/Satisfaction_RDQ_32_0.png)
+![png](../images/PatientPerspectives/Fig3.png)
     
 
 
