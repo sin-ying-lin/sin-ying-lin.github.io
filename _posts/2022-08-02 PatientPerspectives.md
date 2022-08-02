@@ -238,20 +238,6 @@ df[['overall1', 'imprv1', 'pre_sym', 'pre_cope', 'pre_pmh', 'pre_fun', 'pre_well
 ```
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -495,20 +481,7 @@ df[['overall1', 'imprv1', 'change_sym', 'change_cope', 'change_pmh', 'change_fun
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -639,7 +612,6 @@ ggplot(df_long0, aes(x='satvalue', y='rdqvalue')) + \
 
 
 
-    <ggplot: (8789408595785)>
 
 
 
@@ -663,14 +635,11 @@ ggplot(df_long, aes(x='satvalue', y='rdqvalue')) + \
 
 
     
-![png](../images/PatientPerspectives/Fig2.pngg)
+![png](../images/PatientPerspectives/Fig2.png)
     
 
 
 
-
-
-    <ggplot: (8789411158781)>
 
 
 
@@ -704,7 +673,6 @@ ggplot(df_long2, aes(x='satvalue', y='rdqvalue')) + \
 
 
 
-    <ggplot: (8789413795118)>
 
 
 
