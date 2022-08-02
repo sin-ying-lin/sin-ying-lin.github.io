@@ -237,7 +237,7 @@ Before we move on to visualization. Let's quickly view variable relationships th
 df[['overall1', 'imprv1', 'pre_sym', 'pre_cope', 'pre_pmh', 'pre_fun', 'pre_well']].corr()
 ```
 
-
+<div class="table-wrapper" markdown="block">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -327,7 +327,6 @@ df[['overall1', 'imprv1', 'pre_sym', 'pre_cope', 'pre_pmh', 'pre_fun', 'pre_well
 </div>
 
 
-
 Good to know that the patients' overall satisfaction (overall1) was related to their perceived improvements (impv1) at the end of treatment, and these two end-of-treament variables were not related to their pre-treatment symptom, coping, positve mental health, functioning, well-being much (r < 0.2). 
 
 The RDQ components had moderate to high correlations. Note that by design the direction of the symptom variable was the opposite to the other variables. 
@@ -342,21 +341,9 @@ df[['overall1', 'imprv1', 'post_sym', 'post_cope', 'post_pmh', 'post_fun', 'post
 
 
 
+<div class="table-wrapper" markdown="block">
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -480,7 +467,7 @@ df[['overall1', 'imprv1', 'change_sym', 'change_cope', 'change_pmh', 'change_fun
 
 
 
-
+<div class="table-wrapper" markdown="block">
 
 <table border="1" class="dataframe">
   <thead>
