@@ -502,6 +502,7 @@ body:after {
   letter-spacing: 2px;
 }
 
+
 .post_date {
   text-align: center;
   color: #939aa1;
@@ -949,6 +950,10 @@ Modules - reusable parts of our design
   content: "";
   display: table;
   clear: both;
+}
+
+.table-wrapper {
+  overflow-x: scroll;
 }
 
 .cd-timeline-content h2 {
