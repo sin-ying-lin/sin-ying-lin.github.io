@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding Patient Perspectives"
-categories: Visualization, Correlation
+categories: Visualization Correlation
 excerpt: Heavily influenced by the medical model, we tend to conceptulize patient improvement as symptom reduction. The less symptoms a person has, the happier they should be. However, there are certainly many different aspects to patient perceived satisfaction and improvement. Let's use simple data analytic techniques to decompose patient perspectives. 
 ---
 
