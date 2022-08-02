@@ -5,8 +5,7 @@ categories: Visualization Correlation
 excerpt: Heavily influenced by the medical model, we tend to conceptulize patient improvement as symptom reduction. The less symptoms a person has, the happier they should be. However, there are certainly many different aspects to patient perceived satisfaction and improvement. Let's use simple data analytic techniques to decompose patient perspectives. 
 ---
 
-## Which Types of Treatment Outcomes 
-## Contributes to Patient Perceived Overall Satisfaction and Improvement in Psychiatry
+## What Types of Treatment Outcomes\n Contributes to Patient Perceived Overall Satisfaction and Improvement in Psychiatry
 
 
 Heavily influenced by the medical model, we tend to conceptulize patient improvement as <i> symptom reduction </i>. 
