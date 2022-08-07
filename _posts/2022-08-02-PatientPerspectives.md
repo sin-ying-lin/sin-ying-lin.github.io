@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding Patient Perspectives"
 categories: Visualization Correlation
-excerpt: Heavily influenced by the medical model, we tend to conceptulize patient improvement as symptom reduction. The less symptoms a person has, the happier they should be. However, there are certainly many different aspects to patient perceived satisfaction and improvement. Let's use simple data analytic techniques to decompose patient perspectives. 
+excerpt: Heavily influenced by the medical model, we tend to conceptualize patient improvement as symptom reduction. The fewer symptoms a person has, the happier they should be. However, there are certainly many different aspects to patient-perceived satisfaction and improvement. Let's use simple data analytic techniques to decompose patient perspectives. 
 ---
 
 ## What Types of Treatment Outcomes Contribute to Patient Perceived Overall Satisfaction and Improvement in Psychiatry
@@ -10,14 +10,14 @@ excerpt: Heavily influenced by the medical model, we tend to conceptulize patien
 
 Heavily influenced by the medical model, we tend to conceptulize patient improvement as <i> symptom reduction </i>. 
 
-The less symptoms a person has, the happier they should be. 
+The fewer symptoms a person has, the happier they should be. 
 
-However, there are certainly many different aspects to patient perceived satisfaction and improvements. 
+However, there are certainly many different aspects to patient-perceived satisfaction and improvements. 
 
-For some patients, although they still experience some psychiatric symptoms after treratment, say depressive mood, they are able to cope with it and pursue a life worth living. 
-For some other patients, even when they do not experience clinical level psychiatric symptoms, they may not be able to bring their functioning back to where they hope it to be. 
+For some patients, although they still experience some psychiatric symptoms after treatment, say depressive mood, they are able to cope with it and pursue a life worth living. 
+For some other patients, even when they do not experience clinical-level psychiatric symptoms, they may not be able to bring their functioning back to where they hope it to be. 
 
-Thus, we tried to understand which types of treatment outcomes (i.e., symptom reduction, coping abilities, positive mental health, functioning, and well-being) are more critical for patient perceved overall satisfaction and improvement after completing a partial hospital program.  
+Thus, we tried to understand which types of treatment outcomes (i.e., symptom reduction, coping abilities, positive mental health, functioning, and well-being) are more critical for patient-percieved overall satisfaction and improvement after completing a partial hospital program.  
 
 ###  Load Packages
 
@@ -36,8 +36,8 @@ warnings.filterwarnings('ignore')
 ```
 
 ### Load Data 
-Read in treatment outcome data assessed by RDQ and patients overall ratings after treatment. 
-Note that for confidentiatliy, we cannot release raw data to anyone outside of the hospital. 
+Read in treatment outcome data assessed by RDQ and patients' overall ratings after treatment. 
+Note that for confidentiality, we cannot release raw data to anyone outside of the hospital. 
 
 
 ```python
@@ -58,7 +58,7 @@ demo = pd.read_spss('../Data/DemosDx/Demographics Form_1.sav')
 ```
 
 ### Data Pre-processing
-Make sure all variables types are correct and create aggregated vraibles from the items.
+Make sure all variable types are correct and create aggregated vraibles from the items.
 
 
 ```python
@@ -112,8 +112,8 @@ satGlobalNew = satNew.loc[:,['id1','overall_1', 'imprv_1']].rename(columns = {'i
 
 ```
 
-Note that this is a example of bad data maintenance. 
-Should always keep corresponding variable names across old and new datasets conssitent.   
+Note that this is an example of bad data maintenance. 
+Should always keep corresponding variable names across old and new datasets consistent.   
 
 
 ```python
@@ -158,9 +158,9 @@ df.to_csv('../Data/df_satisfaction_rdq_dx_demo.csv', encoding='utf-8', index=Fal
     People who completed the program and have less than 10 missing values in RDQ at intake and discharge 2711
 
 
-### Data Formating
+### Data Formatting
 
-Now we need to do some more advanced data preping to make visualization easier. 
+Now we need to do some more advanced data prepping to make visualization easier. 
 If you are a ggplot2/plotnine user, you will favor long over wide data. 
 
 
@@ -185,7 +185,7 @@ df_long_pre.rdqvar = df_long_pre.rdqvar.astype('category').cat.reorder_categorie
     ['pre_sym', 'pre_cope', 'pre_pmh', 'pre_fun', 'pre_well']) 
 df_long_pre.satvar = df_long_pre.satvar.astype('category').cat.reorder_categories(
     ['overall1', 'imprv1'])
-#Make thse label columns as categorical variables
+#Make the label columns categorical variables
 
 
 #Repeat the same process but use it on post-treatment data
@@ -230,7 +230,7 @@ df_long_change.satvar = df_long_change.satvar.astype('category').cat.reorder_cat
 
 ### Pairewise Correlations 
 
-Before we move on to visualization. Let's quickly view variable relationships through pairwise correlations. 
+Before we move on to visualization, let's quickly view variable relationships through pairwise correlations. 
 
 
 ```python
@@ -327,9 +327,9 @@ df[['overall1', 'imprv1', 'pre_sym', 'pre_cope', 'pre_pmh', 'pre_fun', 'pre_well
 </div>
 
 
-Good to know that the patients' overall satisfaction (overall1) was related to their perceived improvements (impv1) at the end of treatment, and these two end-of-treament variables were not related to their pre-treatment symptom, coping, positve mental health, functioning, well-being much (r < 0.2). 
+Good to know that the patient's overall satisfaction (overall1) was related to their perceived improvements (impv1) at the end of treatment, and these two end-of-treatment variables were not related to their pre-treatment symptom, coping, positive mental health, functioning, well-being much (r < 0.2). 
 
-The RDQ components had moderate to high correlations. Note that by design the direction of the symptom variable was the opposite to the other variables. 
+The RDQ components had moderate to high correlations. Note that by design, the direction of the symptom variable was the opposite of the other variables. 
 
 
 Let's move on to post-treatment RDQ. 
@@ -434,9 +434,9 @@ df[['overall1', 'imprv1', 'post_sym', 'post_cope', 'post_pmh', 'post_fun', 'post
 
 
 
-We can tell that the RDQ treatment outcome scores were more relavent to patient perceived improvement than patient satisfaction. It's probably because most people who could stay until the end were generally satisfied with the program (We'll see if it's true when visualizing the data, or you can simply do a count table to see how people rate the program in general.) 
+We can tell that the RDQ treatment outcome scores were more relevant to patient-perceived improvement than patient satisfaction. It's probably because most people who could stay until the end were generally satisfied with the program (We'll see if it's true when visualizing the data, or you can simply do a count table to see how people rate the program in general.) 
 
-Postive mental health has the strongest relationship with patient perceived improvement. The second strong one was well-being, the third coping abilities, the fourth symptom reduction, the fifth functioning. Surprised?
+Positive mental health has the strongest relationship with patient-perceived improvement. The second strong one was well-being, the third was coping abilities, the fourth was symptom reduction, and the fifth was functioning. Surprised?
 
 Let's also take a look at the average change scores. 
 
@@ -558,8 +558,7 @@ df[['overall1', 'imprv1', 'change_sym', 'change_cope', 'change_pmh', 'change_fun
 </div>
 
 
-
-Similarly, among RDQ facets, positive mental health has the strongest relationship with patient perceived improvement. The second one was well-being, the thrid symptom reduction, thr fourth coping abilities, and the fifth functioning.
+Similarly, among RDQ facets, positive mental health has the strongest relationship with patient-perceived improvement. The second one was well-being, the third was symptom reduction, the fourth was coping abilities, and the fifth was functioning.
 
 Interestingly, if you compare the results with the table above, you'll find that patient perceived improvement had stronger relationships with <i> raw </i> post-treatment RDQ scores than <i> changes </i> of RDQ scores.  
 
@@ -602,9 +601,9 @@ ggplot(df_long0, aes(x='satvalue', y='rdqvalue')) + \
 
 
 
-X-axis is the end of program patient perceived satisfaciton/improvement score. The grey dots in the background indicate actual data points. The black dots indicate the mean scores. The error bars indicate 95% CIs. Based on the error bars, you can get a sense of whether there is a significant difference or not.  
+The X-axis is the end-of-program patient-perceived satisfaction/improvement score. The grey dots in the background indicate actual data points. The black dots indicate the mean scores. The error bars indicate 95% CIs. Based on the error bars, you can get a sense of whether there is a significant difference or not.  
 
-Remember I said that most people who stayed in the program till the end probably had fairly high satisfaction? You can tell from the first row of the figure, most people rated a 3 or 4 for satisfaction (more grey dots there). 
+Remember I said that most people who stayed in the program till the end probably had fairly high satisfaction? You can tell from the first row of the figure that most people rated a 3 or 4 for satisfaction (more grey dots there). 
 
 
 ```python
@@ -632,10 +631,10 @@ ggplot(df_long, aes(x='satvalue', y='rdqvalue')) + \
 
 See that <i> almost </i> linear relationships between RDQ facets and Satisfaction/Improvement?
 
-You can tell that people who gave 0s to satisfaction and improvement at the end of treatment tended to perform differently from the linear trend and had a larger within-group heterogeneity. 
+You can tell that people who gave 0s to satisfaction and improvement at the end of treatment tended to perform differently from the linear trend and had a more considerable within-group heterogeneity. 
 I wonder why these people were able to stick to the end of the partial program (a very intense type of program) when they were completely unsatisfied and/or saw no improvement. 
 
-For a research project, we usually stop here. But if I were the program director, I would also check the overall response tendency of these people who gave 0s to satisfaction/improvement to other questionnaires (if they took questionnaires seriously, if their answeres were consistent and reliable, their other characteristics, etc.) Unsatisfied customers can sometimes tell us more, right? 
+For a research project, we usually stop here. But if I were the program director, I would also check the overall response tendency of these people who gave 0s to satisfaction/improvement to other questionnaires (if they took questionnaires seriously, if their answers were consistent and reliable, their other characteristics, etc.) Unsatisfied customers can sometimes tell us more, right? 
 
 
 
@@ -667,12 +666,12 @@ Interpretation would be qutie similar to the post-treatment RDQ score one.
 
 ### Final Thoughts
 
-Some may prefer conducting a linear regression model of patient satisfaction/improvent on different RDQ facets to determine which RDQ facets are significant predictors of patient satisfcation/improvement (after partialing out each others' effects). 
+Some may prefer conducting a linear regression model of patient satisfaction/improvement on different RDQ facets to determine which RDQ facets are significant predictors of patient satisfaction/improvement (after partialing out each others' effects). 
 
 I would not suggest so for several reasons: 
-    1. The RDQ facets were highly correlated (moderate to high correlation) -> You would partial out most of the effets
+    1. The RDQ facets were highly correlated (moderate to high correlations) -> You would partial out most of the effects
     2. All RDQ facets had clear relationships with patient satisfaction/improvement
     3. You could already tell who had stronger relationships from the correlation tables. 
     4. The relationships were not entirely linear. 
     
-It is not wrong to do regression. It is just unnecessary at this point when correlation tables and visualization has already given us a rather complete picture of the story. We would have missed these points if we have had jumped in with regresion directly.  
+It is not wrong to do regression. It is just unnecessary at this point when correlation tables and visualization has already given us a rather complete picture of the story. We would have missed these points if we have had jumped in with regression directly.  
