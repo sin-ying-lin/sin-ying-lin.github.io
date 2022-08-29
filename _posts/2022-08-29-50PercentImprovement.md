@@ -12,10 +12,12 @@ Here, we examined whether other types of outcome improvements follow core sympto
 We define clinically significant improvement as 50% of improvement in one measured domain. 
 
 We examined the overlaps of individuals with  50% improvement in reduction of depressive symptoms with 50% of improvements in:
-    1. Reduction of non-depressive symptoms
-    2. Positive mental health
-    3. Functioning
-    4. Well-being
+<ol>
+    <li>Reduction of non-depressive symptoms</li>
+    <li>Positive mental health</li>
+    <li>Functioning</li>
+    <li>Well-being</li>
+</ol>
 
 We also compared the global patient rating of overall improvement in each response group: 
     1. Responders to both domains (i.e., reduction of depressive symptoms and another measured domain)
