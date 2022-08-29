@@ -234,6 +234,7 @@ a:hover, a:active {
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
+  list-style-position: inside;
 }
 
 ul {
@@ -249,7 +250,7 @@ ol ul, ul ol, ul ul, ol ol {
 }
 
 ul ul, ol ul {
-  list-style-type: circle;
+  list-style-type: auto;
 }
 
 em, i {
