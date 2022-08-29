@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What to Include in the Outcome Metrics for Depression Treatment?--Taking a Look at the 50% Improvements in Different Aspects of Depression"
-categories: Descriptive, OutcomeMetrics
+categories: Descriptive OutcomeMetrics
 excerpt: When discussing treatment outcomes, we tend to focus solely on symptom reduction. We typically assume that other aspects of improvements always follow core symptom reduction. However, researchers rarely examine the overlaps between core symptom reduction and different types of outcome improvements. Here, we examined whether other types of outcome improvements follow core symptom reduction (here, depressive symptoms) in patients with depression after completing a partial hospital program. 
 ---
 
