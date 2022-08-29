@@ -104,12 +104,13 @@ imprv.ID1 = imprv.ID1.astype('object') #Change ID type from float to object
 
 
 Create the five domains of improvements:
-1. Reduction in depressive symptoms
-2. Reduction in non-depressive symptoms
-3. Positive mental health
-4. Functioning 
-5. Well-being
-
+<ol>
+    <li>Reduction in depressive symptoms</li>
+    <li>Reduction in non-depressive symptoms</li>
+    <li>Positive mental health</li>
+    <li>Functioning</li>
+    <li>Well-being</li>
+</ol>
 
 ```python
 rdqPre['pre_dsym'] = rdqPre.iloc[:,1:15].mean(axis = 1) #Pre-treatment Symptom Reduction in Depressive Symptoms
@@ -149,11 +150,12 @@ def findMDDCurrPrin(df: pd.DataFrame) -> pd.DataFrame:
 ### Compute Sample Sizes
 
 Compute the sample sizes of MDD patients and primary MDD patients who completed:
-1. Pre-treatment assessments of different outcome domains
-2. Post-treatment assessment of different outcome domains
-3. Global patient ratings of overall improvements 
-4. All the above three measurements 
-
+<ol>
+    <li>Pre-treatment assessments of different outcome domains</li>
+    <li>Post-treatment assessment of different outcome domains</li>
+    <li>Global patient ratings of overall improvements </li>
+    <li>All the above three measurements</li>
+</ol>
 
 ```python
 #Complete Data of Pre-treatment RDQ
