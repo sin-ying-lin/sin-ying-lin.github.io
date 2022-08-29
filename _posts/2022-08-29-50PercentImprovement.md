@@ -5,10 +5,6 @@ categories: Descriptive, OutcomeMetrics
 excerpt: When discussing treatment outcomes, we tend to focus solely on symptom reduction. We typically assume that other aspects of improvements always follow core symptom reduction. However, researchers rarely examine the overlaps between core symptom reduction and different types of outcome improvements. Here, we examined whether other types of outcome improvements follow core symptom reduction (here, depressive symptoms) in patients with depression after completing a partial hospital program. 
 ---
 
-
-# What to Include in the Outcome Metrics for Depression Treatment?--Taking a Look at the 50% Improvements in Different Aspects of Depression
-
-
 When discussing treatment outcomes, we tend to focus solely on symptom reduction. We typically assume that other aspects of improvements always follow core symptom reduction. However, researchers rarely examine the overlaps between core symptom reduction and different types of outcome improvements. 
 
 Here, we examined whether other types of outcome improvements follow core symptom reduction (here, depressive symptoms) in patients with depression after completing a partial hospital program.  
@@ -16,16 +12,16 @@ Here, we examined whether other types of outcome improvements follow core sympto
 We define clinically significant improvement as 50% of improvement in one measured domain. 
 
 We examined the overlaps of individuals with  50% improvement in reduction of depressive symptoms with 50% of improvements in:
-1. Reduction of non-depressive symptoms
-2. Positive mental health
-3. Functioning
-4. Well-being
+    1. Reduction of non-depressive symptoms
+    2. Positive mental health
+    3. Functioning
+    4. Well-being
 
 We also compared the global patient rating of overall improvement in each response group: 
-1. Responders to both domains (i.e., reduction of depressive symptoms and another measured domain)
-2. Responders to depressive symptom reduction only
-3. Responders to the other domain only
-4. Non-responders to both domains 
+    1. Responders to both domains (i.e., reduction of depressive symptoms and another measured domain)
+    2. Responders to depressive symptom reduction only
+    3. Responders to the other domain only
+    4. Non-responders to both domains 
 
 
 
