@@ -20,11 +20,12 @@ We examined the overlaps of individuals with  50% improvement in reduction of de
 </ol>
 
 We also compared the global patient rating of overall improvement in each response group: 
-    1. Responders to both domains (i.e., reduction of depressive symptoms and another measured domain)
-    2. Responders to depressive symptom reduction only
-    3. Responders to the other domain only
-    4. Non-responders to both domains 
-
+<ol>
+    <li>Responders to both domains (i.e., reduction of depressive symptoms and another measured domain)</li>
+    <li>Responders to depressive symptom reduction only</li>
+    <li>Responders to the other domain only</li>
+    <li>Non-responders to both domains</li> 
+</ol>
 
 
 ### Load Packages
