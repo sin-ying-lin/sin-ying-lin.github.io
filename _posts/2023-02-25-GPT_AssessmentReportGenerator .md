@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GPT-Powered Assessment Report Generator"
-categories: Generative AI
+categories: GenerativeAI
 excerpt: Learn how to put generative AI into clinical application
 ---
 
@@ -66,12 +66,13 @@ def generate_report(input_data):
 
 Below is a demo of a report interface I created for assessing depression. 
 
-<kbd>![interface](https://github.com/sin-ying-lin/assessment_report_generator/blob/main/pictures/interface.png)<kbd>
+
+<kbd><img src="https://github.com/sin-ying-lin/assessment_report_generator/blob/main/pictures/interface.png" alt="interface"><kbd>
 
 <br>
 Once you click ```sumbit```, the report generator based on GPT will create a report written in professional medical tone following the diagnostic rule of MDD in the DSM-5. The whoe process tkaes less than 5 minutes, while typing the report on your own can easily take 15-30 minutes, depending on your familiarity with the medical lanaguage. 
 
-<kbd>![report](https://github.com/sin-ying-lin/assessment_report_generator/blob/main/pictures/report.png)<kbd>
+<kbd><img src="https://github.com/sin-ying-lin/assessment_report_generator/blob/main/pictures/report.png" alt="report"><kbd>
 
 You can find my code in my [gituhub rep](https://github.com/sin-ying-lin/assessment_report_generator/).
 
@@ -96,7 +97,7 @@ export OPENAI_API_KEY=<your-api-key>
 ```
 python generator.py
 ```
-
+    
 5. Copy the locohost address to your browser
 
 6. Try insert different informatino to the report generator interface. Click submit to generate a reprot. 
