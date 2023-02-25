@@ -4,22 +4,38 @@ title: About Me
 permalink: /about/
 ---
 
-My name is Sin-Ying. I also go by Alina. I respond to both. <br>
-I am a <i>researcher</i>, a <i>data scientist</i>, and a <i>therapist</i> in mental/behavioral health. <br> 
-<br>
-I firmly believe that one day we will achieve data-informed, evidence-based, personalized clinical practice. We will be paying the values of healthcare services we receive, not paying for the time we waste. <br>
+## About Me
+You can call me Sin-Ying or Alina. I am a clinical psychologist and a behavioral data scientist with expertise in behavioral pattern identification/prediction, survey design, A/B testing, and data visualization. 
 
-My specialty lies in identifying idiosyncratic factors that predict differential treatment responses. My research also addresses diagnostic issues and facilitates the development of clinically meaningful outcome matrices to improve prediction accuracy. <br>
+I worked as a data science consultant in the psychology department at Stony Brook University, providing stats consultation, experimental design modification, coding support, and machine learning expertise to 5 different labs and the department-affiliated clinic. 
 
-I integrate a variety of quantitative methods to approach answers to complex clinical questions. <br>
-"Never let a method constrains your imagination" is my motto.<br>
-<br>
-I am familiar with common statistical methods (e.g., <b>t-test, ANOVA, chi-square, regression</b>) as well as advanced modeling (e.g., <b>multivariate modeling, multilevel modeling, agent-based modeling</b>). <br>
-I also published [papers](https://scholar.google.com.tw/citations?user=EMc3V7MAAAAJ&hl=en&oi=ao) in top journals applying novel methods such as <b>network analysis</b> and <b>machine learning</b> to obtain actionable insights from large-scale clinical data.<br>
-On top of all the fancy techniques, my true love is <b>data visualization</b>, which not only helps you deliver a story but also helps you understand your data. <br>
-<br>
-I enjoy the process of digging out gems from messy, naturalistic, longitudinal clinical data. <br>
- <br>
-I love talking to people from different disciplines so long as we all want a more reliable and transparent healthcare system or we are all nerdy method lovers. <br>
-<br>
+I have also worked with cross-state clinical network to inform health policy decisions by helping clinics to utilize their naturalistic, longitudinal, complex human behavioral data, leveraging top-notch quantitative methods.
+
+I am currently a psychology resident on the MIDAS project at Rhode Island Hospital, integrating my specialties in clinical psychology and data science to improve assessment accuracy, clinical outcomes, and equity policies. 
+
+## Domain Knowledge
+- Health
+- Wellness
+- Interactions among emotion, cognitive, behavior, and environmental feedback
+- Assessment and Intervention
+
+## Quant and Coding Expertise
+- Longitudinal modeling (e.g., time-series, multilevel modeling)
+- Complex pattern modeling (e.g., probabilistic graphical model)
+- Causal inference
+- Machine learning and imbalanced case handling
+- Python, R, SQL, Hadoop/Spark, PyTorch
+- Data visualization (R-Shiny, CSS, HTML, jQuery)
+
+## Recent Interest
+- Application of generative AI
+
+## Why Clinical Psychology
+People often mistake that clinical psychologists are only familiar with extreme human behaviors. However, we are actually experts in the entire spectrum of human behaviors (don't forget that 20% of the US population has a severe mental illness diagnosis) and ultimate human well-being. We also study human behaviors based on integrate theories considering the bio-pscyho-social factors. We are also experts in qualitative analysis for cognition-emotion-behavior-reinforcement catalysts. Further, we know how to effectively intervene human behaviors and design experiments to carefully study the effectiveness of different approaches based on individual factors. 
+
+
+## Open to work
+If you have exciting, large-scale human behavioral data and want to put it into best use, please contact me. :D 
+
+
 
