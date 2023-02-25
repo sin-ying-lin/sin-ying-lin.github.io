@@ -97,7 +97,14 @@ export OPENAI_API_KEY=<your-api-key>
 ```
 python generator.py
 ```
-5. Copy the locohost address to your browser
+
+5. Copy the locohost address (http://127.0.0.1:5000) to your browser
+```
+ * Serving Flask app 'generator'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+```
 
 6. Try insert different informatino to the report generator interface. Click submit to generate a reprot. 
 
