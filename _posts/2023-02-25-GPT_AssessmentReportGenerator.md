@@ -2,8 +2,7 @@
 layout: post
 title: "GPT-Powered Assessment Report Generator"
 categories: GenerativeAI
-excerpt: Writing psychodiagnostic reports can be a cumbersome and time-consuming process. It can take up to four hours to write a full report, which is an essential component of patient care management. Writing reports in clear, neutral medical language is important, especially since patients tend to be transferred between different levels of care. However, Natural Language Processing (NLP) has the potential to automate the report generation process, saving time and effort for healthcare providers.
-
+excerpt: Writing psychodiagnostic reports can be a cumbersome and time-consuming process. It can take up to four hours to write a full report, which is an essential component of patient care management. Writing reports in clear, neutral medical language is important, especially since patients tend to be transferred between different levels of care. However, Natural Language Processing (NLP) has the potential to automate the report generation process, saving time and effort for healthcare providers. Here is a quick demo of how to combine NLP with medical report generation. 
 ---
 
 ## Introduction
