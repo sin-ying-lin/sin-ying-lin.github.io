@@ -97,7 +97,6 @@ export OPENAI_API_KEY=<your-api-key>
 ```
 python generator.py
 ```
-    
 5. Copy the locohost address to your browser
 
 6. Try insert different informatino to the report generator interface. Click submit to generate a reprot. 
