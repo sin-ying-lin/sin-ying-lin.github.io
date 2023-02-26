@@ -4,7 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-## About Me
 You can call me Sin-Ying or Alina. I am a clinical psychologist and a behavioral data scientist with expertise in behavioral pattern identification/prediction, survey design, A/B testing, and data visualization. 
 
 I worked as a data science consultant in the psychology department at Stony Brook University, providing stats consultation, experimental design modification, coding support, and machine learning expertise to 5 different labs and the department-affiliated clinic. 
