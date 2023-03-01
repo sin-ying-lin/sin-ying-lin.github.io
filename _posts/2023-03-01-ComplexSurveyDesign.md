@@ -269,9 +269,10 @@ Although the ```glm``` function is more flexible than ```lm``` and can be used f
 #Compute pseudo R2: (1 - RSS/TSS)
 1 - sum(alc_daily_volume_sex$residuals^2)/(var(na.omit(new_data)$alc_daily_volume)*nrow(na.omit(new_data)))
 
+```
+```
 0.025605872614839
 ```
-
 
 
 
