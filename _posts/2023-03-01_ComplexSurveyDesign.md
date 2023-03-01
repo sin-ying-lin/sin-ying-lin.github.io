@@ -264,10 +264,11 @@ You can see that sex significantly associated with daily drinking volume. The re
 ### Pseudo-<i>R<sup>2</sup></i>
 
 Although the ```glm``` function is more flexible than ```lm``` and can be used for logistic regrssion models or other specified distributions, one downside of ```glm``` is that we cannot obtain <i>R<sup>2</sup></i> directly. Below is how we can compute pseudo-<i>R<sup>2</sup></i> following the <i>R<sup>2<sup></i> formula: 
-    
-    R2 = 1 - (Residual Sum of Squares/Total Sum of Squares)
 
-
+$$
+	R^2 = 1 - (\frac{Residual Sum of Squares}{Total Sum of Squares})
+$$
+	
 ```R
 #Compute pseudo R2: (1 - RSS/TSS)
 1 - sum(alc_daily_volume_sex$residuals^2)/(var(na.omit(new_data)$alc_daily_volume)*nrow(na.omit(new_data)))
