@@ -3,6 +3,7 @@ layout: post
 title: "Handle Complex Survey Data in R"
 categories: SurveyDesign
 excerpt: Understanding how to handle complex survey design is crucial for researchers and analysts who work with survey data, particularly those who want to produce accurate and representative estimates of population parameters. Properly accounting for concepts such as primary survey units, clusters, strata, and sampling weights, as well as using specialized software packages designed for complex survey data analysis, is essential for producing reliable results. This article will teach you how to use R to handle complex survey design in 10 minutes. 
+---
 
 ## Introduction
 
