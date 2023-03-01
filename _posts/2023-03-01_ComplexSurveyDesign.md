@@ -266,7 +266,7 @@ You can see that sex significantly associated with daily drinking volume. The re
 Although the ```glm``` function is more flexible than ```lm``` and can be used for logistic regrssion models or other specified distributions, one downside of ```glm``` is that we cannot obtain <i>R<sup>2</sup></i> directly. Below is how we can compute pseudo-<i>R<sup>2</sup></i> following the <i>R<sup>2<sup></i> formula: 
 
 $$
-	R^2 = 1 - (\frac{Residual \ Sum \ of \ Squares}{Total \Sum \of \Squares})
+	R^2 = 1 - (\frac{Residual \ Sum \ of \ Squares}{Total \ Sum \ of \ Squares})
 $$
 	
 ```R
