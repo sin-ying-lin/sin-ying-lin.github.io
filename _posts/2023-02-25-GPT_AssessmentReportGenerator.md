@@ -70,7 +70,7 @@ Below is a demo of a report interface I created for assessing depression.
 ![Fig1](/images/GenerativeAI/interface.png)
 
 <br>
-Once you click ```sumbit```, the report generator based on GPT will create a report written in professional medical tone following the diagnostic rule of MDD in the DSM-5. The whoe process tkaes less than 5 minutes, while typing the report on your own can easily take 15-30 minutes, depending on your familiarity with the medical lanaguage. 
+Once you click ```sumbit```, the report generator based on GPT will create a report written in professional medical tone following the diagnostic rule of MDD in the DSM-5. The whoe process tkaes less than 3 minutes, while typing the report on your own can take anywhere from 5-20 minutes, depending on your familiarity with the medical lanaguage.
 
 ![Fig2](/images/GenerativeAI/report.png)
 
