@@ -268,10 +268,12 @@ Although the ```glm``` function is more flexible than ```lm``` and can be used f
 ```R
 #Compute pseudo R2: (1 - RSS/TSS)
 1 - sum(alc_daily_volume_sex$residuals^2)/(var(na.omit(new_data)$alc_daily_volume)*nrow(na.omit(new_data)))
+
+0.025605872614839
 ```
 
 
-0.025605872614839
+
 
 
 Of course, the difference in sex only explained a small amount (2.6%) of variance in the daily volume of alcohol consumption. 
